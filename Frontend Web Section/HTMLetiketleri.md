@@ -1,12 +1,12 @@
 # En Çok Kullanılan HTML Etiketleri Nelerdir
-Yazıya başlamadan önce HTML dilinde bir etiket nasıl oluşturulur bunu göstermek istiyorum. Etiketler küçüktür ve büyüktür işaretlerinin arasına yazılarak başlar. (örn. `<etiket>`) içeriği yazdıktan sonra etiketi kapatmanız gerekir. Etiketi kapatmak için küçüktür, slash, etiket, büyüktür şeklinde yazılmalıdır. (örn. `</etiket>`) 
-Bütün bir örnek yapmak gerekirse 
+HTML dilinde bir etiket nasıl oluşturulur? Etiketler küçüktür ve büyüktür işaretlerinin arasına yazılarak başlar. (örn. `<etiket>`) içeriği yazdıktan sonra etiketi kapatılması gerekir. Etiketi kapatmak için küçüktür, slash, etiket, büyüktür şeklinde yazılmalıdır. (örn. `</etiket>`) 
+ 
 **(örn. `<etiket>` İçerik Yazılacak Alan `</etiket>`)**
 
 Not: Bazı etiketler kapanmaya ihtiyaç duymazlar (örn. `<br>`, `<hr>`, `<meta>` vs.)
 
 ## HTML Etiketi
-HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza bildirir. Bu etiket, kendi altında mutlaka `<HEAD>` ve `<BODY>` etiketlerini barındırmalıdır. Eğer bir HTML dökümanı oluşturmak isterseniz ilk yapacağınız iş bir `<html>` etiketi oluşturmaktır. Ardından HTML etiketi altına `<HEAD>` ve `<BODY>` etiketlerini yazmalısınız.
+HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza bildirir. Bu etiket, kendi altında mutlaka `<HEAD>` ve `<BODY>` etiketlerini barındırmalıdır. Eğer bir HTML dökümanı oluşturmak istenildiğinde ilk olarak `<html>` etiketi oluşturulur. Ardından HTML etiketi altına `<HEAD>` ve `<BODY>` etiketleri yazılmalıdır.
 
 ```html
 <html>   
@@ -15,7 +15,8 @@ HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza b
 </html>
 ```
 ### HEAD Etiketi
-`<head>` etiketi, site ziyaretçileri tarafından görülmesi gerekmeyen kodları içerir. Bu etiket altına yazılan kodlar genellikle arama motorları ve örümcekler (Crawler veya Spider diye geçer) içindir. Head etiketi altında bütün etiketleri kullanabilmeniz mümkün değil. Kullanabileceğiniz etiketler;
+`<head>` etiketi, site ziyaretçileri tarafından görülmesi gerekmeyen kodları içerir. Bu etiket altına yazılan kodlar genellikle arama motorları ve örümcekler (Crawler veya Spider diye geçer) içindir. Head etiketi altında bütün etiketleri kullanabilmeniz mümkün değil.
+Kullanılabilir etiketler;
 ```html
 <title> (Bu etiketi kullanmak şarttır)
 <meta>
@@ -36,12 +37,12 @@ HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza b
 </html>
 ```
 ### BODY Etiketi
-Web sayfamızda görmek istediğimiz bütün içerikleri `<body>` etiketi altına yazıyoruz. Anlatacağım diğer etiketleri `<body>` etiketi içerisine yazıcaz.
+Web sayfamızda görmek istediğimiz bütün içerikleri `<body>` etiketi altına yazılır. Diğer etiketleri `<body>` etiketi içerisine yazılır.
 ```html
 <html>   
 <HEAD>
     <title> Sekmede Görülecek İsim </title>
-    <meta name="Keywords" content="HTML,Kodluyoruz">
+    <meta name="Keywords" content="HTML,MADSoft">
 </HEAD> 
 <BODY>
     Site İçeriği
@@ -50,10 +51,10 @@ Web sayfamızda görmek istediğimiz bütün içerikleri `<body>` etiketi altın
 ```
 Not:
 
-Şu ana kadar oluşturduğumuz yapıyı idelerde kısayollar ile hızlıca oluşturabiliyoruz. Visual Studio Code (VSC) üzerinde "! + Enter" yazarak aşşağıdaki yapıyı hızlıca oluşturabilirsiniz.
+Şu ana kadar oluşturlan yapı idelerde kısayollar ile hızlıca oluşturulması mümkündür. Visual Studio Code (VSC) üzerinde "! + Enter" yazarak aşşağıdaki yapıyı hızlıca oluşturabilirsiniz.
 
 `<!DOCTYPE html>` : Dökümanımızın HTML dilinde olduğunu tarayıcımıza bildiren talimattır.
-`<html lang="en">` : Site içeriğinin dilini belirten etiket, "en" yerine "tr" yazabilirsiniz.
+`<html lang="en">` : Site içeriğinin dilini belirten etiket, "en" yerine "tr" yazılabilir.
 ```html
 <!DOCTYPE html> 
 <html lang="en">
@@ -82,7 +83,7 @@ H etiketleri başlık etiketleridir. Büyükten küçüğe sırasıyla
 Not: HTML otomatik olarak Başlık etiketlerinin öncesine ve sonrasına satır atlatır.
 
 #### P Etiketi
-`<p>` etiketi paragraf etiketidir. Sayfa içerisinde oluşturacağımız metinleri `<p>` etiketi ile oluştururuz. Aşşağıdaki örnekte hem başlık etiketi hemde paragrafa etiketini kullandım.
+`<p>` etiketi paragraf etiketidir. Sayfa içerisinde oluşturmak istenilen metinleri `<p>` etiketi ile yapılır. Aşağıdaki örnekte hem başlık etiketi hemde paragraf etiketi kullanılmıştır.
 
 Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atlatır.
 ```html
@@ -99,8 +100,8 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
 </body>
 </html>
 ```
-#### BR Etiketi
-`<br>` etiketi satır atlatma etiketidir ve kapatmaya ihtiyaç duymayan etiketlerden biridir. Atlatmak istediğiniz satır sayısı kadar `<br>` etiketi kullanabilirsiniz. <br /> NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. örn.(`<br>`,`<br/>`,`<br />` Hepsi aynı işlevi yerine getirir.
+#### br Etiketi
+`<br>` etiketi satır atlatma etiketidir ve kapatmaya ihtiyaç duymayan etiketlerden biridir. Atlatmak istenilen satır sayısı kadar `<br>` etiketi kullanılır. <br /> NOT: BR etiketinin farklı kullanımlarını görebilirsiniz. örn.(`<br>`,`<br/>`,`<br />` Hepsi aynı işlevi yerine getirir.
 ```html
 <!DOCTYPE html> 
 <html lang="en">
@@ -110,13 +111,13 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
     <title>Document</title>
 </head>
 <body>
-    <h2>Kodluyoruz</h2> <br>
+    <h2>MADSoft</h2> <br>
     <p>HTML <br> Etiketleri</p>
 </body>
 </html>
 ```
 #### a Etiketi
-`<a>` etiketinin en önemli özelliği href özelliğidir. Bu etiket ile sayfaları linkleyebiliriz. Etiket içerisine yazılan içerik sayfa üzerinde gösterilecek içeriktir. href içine yazılan ise tıklandığında gideceği URL'dir.
+`<a>` etiketinin en önemli özelliği href özelliğidir. Bu etiket ile sayfalar arası bağlantı kurabilirsiniz. Etiket içerisine yazılan içerik sayfa üzerinde gösterilecek içeriktir. href içine yazılan ise tıklandığında gideceği URL'dir.
 ```html
 <!DOCTYPE html> 
 <html lang="en">
@@ -126,15 +127,15 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
     <title>Document</title>
 </head>
 <body>
-    <a href="https://www.kodluyoruz.org">Kodluyoruz</a>
+    <a href="https://www.madsoft.org">Madsoft</a>
 </body>
 </html>
 ```
 #### ul - ol - li Etiketi
-`<ul>` ve `<ol>` etiketleri liste oluşturma etiketleridir. Listeyi oluşturduktan sonra içeriğini oluşturmak için `<li>` etiketini kullanıyoruz.
+`<ul>` ve `<ol>` etiketleri liste oluşturma etiketleridir. Listeyi oluşturduktan sonra içeriğini oluşturmak için `<li>` etiketi kullanılır
 
-`<ul>` = "unordered list" sırasız liste anlamına geliyor. 
-`<ol>` = "ordered list" sıralı liste anlamına geliyor.
+`<ul>` = "unordered list" sırasız liste anlamına gelir. 
+`<ol>` = "ordered list" sıralı liste anlamına gelir.
 ```html
 <!DOCTYPE html> 
 <html lang="en">
@@ -162,7 +163,7 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
 ```
 #### hr Etiketi
 `<hr>` etiketi ekrana yatay bir çizgi çizer. Bu etiket kapanmaya ihtiyaç duymaz.
-```
+```html
 <!DOCTYPE html> <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -205,7 +206,7 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
 </html>
 ```
 #### Script Etiketi
-`<script>` etiketi JavaScript kodlarını HTML içerisine yazabilmemizi sağlar.
+`<script>` etiketi JavaScript kodlarını HTML içerisine yazılabilmesini sağlar.
 ```html
 <!DOCTYPE html> 
 <html lang="en">
@@ -216,13 +217,13 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
 </head>
 <body>
     <script>
-        document.write("Kodluyoruz")
+        document.write("MADSoft")
     </script>
 </body>
 </html>
 ```
 #### button Etiketi
-`<button>` etiketini buton oluşturmak için kullanırız. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
+`<button>` etiketini buton oluşturmak için kullanılır. Buton üzerine yazmak istediğiniz içeriği etiketin içine yazmanız yeterlidir.
 ```html
 <!DOCTYPE html> <html lang="en">
 <head>
@@ -236,7 +237,9 @@ Not: HTML otomatik olarak Paragraf etiketinin öncesine ve sonrasına satır atl
 </html>
 ```
 #### img Etiketi
-Resim eklemek için `<img>` etiketini kullanıyoruz. `<br> <img src=”resim.jpg” alt=”açıklama yazısı” />` src="" kısmına eklemek istediğimiz görselin yolunu yani kaynağını yazmalıyız. Eğer görselimiz ve HTML dosyamız aynı klasörde ise görselin adını ve uzantısını yazmamız yeterlidir. alt="" kısmına görselin açıklamasını yazıyoruz fakat isterseniz boş bırakabilirsiniz. Bu etiket kapanmaya ihtiyaç duymaz.
+Resim eklemek için `<img>` etiketini kullanılır. 
+`<br> <img src=”resim.jpg” alt=”açıklama yazısı” />` 
+src="" kısmına eklemek istediğimiz görselin yolunu yani kaynağını yazılır. Eğer görsel ve HTML dosyası aynı klasörde ise görselin adını ve uzantısı yazılması yeterlidir. alt="" kısmına görselin açıklamasını yazılır fakat tercihe bağlıdır boş bırakılabilir. Bu etiket kapanmaya ihtiyaç duymaz.
 ```html
 <!DOCTYPE html> <html lang="en">
 <head>
@@ -245,12 +248,12 @@ Resim eklemek için `<img>` etiketini kullanıyoruz. `<br> <img src=”resim.jpg
     <title>Document</title>
 </head>
 <body>
-    <img src=”görseller/kodluyoruz.jpg” alt=”Kodluyoruz Bootcamp” />
+    <img src=”img/madsoftmain.jpg” alt=MADSoft Bootcamp” />
 </body>
 </html>
 ```
 #### iframe Etiketi
-Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. örn: Youtube'dan bir videoyu sayfamızda göstermek istersek `<iframe>` kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.)
+Belge içinde belge gösterilmesini sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanılır. örn: Youtube'dan bir videoyu sayfamızda göstermek istersek `<iframe>` kodlarını sayfamıza eklememiz yeterlidir.
 ```html
 <!DOCTYPE html> <html lang="en">
 <head>
@@ -259,7 +262,7 @@ Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir si
     <title>Document</title>
 </head>
 <body>
-    <iframe width="1519" height="581" src="https://www.youtube.com/embed/BHPYQHnD_QA" frameborder="0"
+    <iframe width="1519" height="581" src="https://www.youtube.com/watch?v=hGIW2fDb0jg" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 </body>

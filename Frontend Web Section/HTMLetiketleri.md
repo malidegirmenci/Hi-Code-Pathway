@@ -289,5 +289,5 @@ HTML dilinde yorum satırı`<!-- ile başlar -->` ile biter.
 </html>
 ```
 # Kaynaklar
-[w3schools](https://www.w3schools.com/tags/default.asp)
+[w3schools](https://www.w3schools.com/tags/default.asp)  
 [patika.dev](https://academy.patika.dev/)

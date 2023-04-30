@@ -24,14 +24,15 @@ HTML etiketi, dosya içeriğinin HTML dilinde yazıldığını tarayıcımıza b
 <noscript>
 <link>
 <base>
+```
+```html
 <html>   
 <HEAD>
     <title> Sekmede Görülecek İsim </title>
     <meta name="Keywords" content="HTML,Kodluyoruz">
 </HEAD> 
-
-<BODY></BODY>
-  
+<BODY>
+</BODY>
 </html>
 ```
 ### BODY Etiketi

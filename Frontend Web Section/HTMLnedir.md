@@ -14,6 +14,6 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 Web Tarayıcısı  
 "HTML Nedir?" sorusunun cevabını iyi bir şekilde anlamak için web tarayıcıları hakkında kısa da olsa bilgi sahibi olmak gereklidir. Aslında hepimizin sürekli halde kullandığı web tarayıcıları basit anlamıyla; www (World Wide Web) sisteminde bulunan bilgileri görüntülemeye yarayan teknolojiler olduğunu söyleyebiliriz. Bir web tarayıcısı internet dünyasındaki istediğiniz bir noktaya gitmenizi sağlayarak metin, resim ve videolar görmenize imkan verir. 2
   
-Kaynaklar
+Kaynaklar  
 https://tr.wikipedia.org/wiki/HTML  
 https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1

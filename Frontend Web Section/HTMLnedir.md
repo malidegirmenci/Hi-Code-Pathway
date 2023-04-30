@@ -27,5 +27,5 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 ![Markdown Resim](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/html-nedir/figures/%C4%B0lk-Web-Sayfam%C4%B1z.png)
 
 Kaynaklar  
-[HTMLNedir?](https://tr.wikipedia.org/wiki/HTML)
+[HTMLNedir?](https://tr.wikipedia.org/wiki/HTML)  
 [Web Tarayıcı nedir?](https://tr.wikipedia.org/wiki/Web_taray%C4%B1c%C4%B1s%C4%B1)

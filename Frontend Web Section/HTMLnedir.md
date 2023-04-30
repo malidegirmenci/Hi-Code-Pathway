@@ -14,14 +14,15 @@ HTML, 1980'li yılların başlarında bir ihtiyaç neticesinde oluşturulmaya ba
 # Web Tarayıcısı
 "HTML Nedir?" sorusunun cevabını iyi bir şekilde anlamak için web tarayıcıları hakkında kısa da olsa bilgi sahibi olmak gereklidir. Aslında hepimizin sürekli halde kullandığı web tarayıcıları basit anlamıyla; www (World Wide Web) sisteminde bulunan bilgileri görüntülemeye yarayan teknolojiler olduğunu söyleyebiliriz. Bir web tarayıcısı internet dünyasındaki istediğiniz bir noktaya gitmenizi sağlayarak metin, resim ve videolar görmenize imkan verir.2
 # İlk Web Sayfamız
-```
-<html>   <head>
-    <title>Kodluyoruz</title>
-  </head>
-  <body>
-    <h1>Kodluyoruz "HTML Nedir?" Yazımıza Hoş Geldiniz</h1>
-    <p>İlk Web Sayfamız</p>
-  </body>
+```html
+<html>   
+<head>
+  <title>Kodluyoruz</title>
+</head>
+<body>
+  <h1>Kodluyoruz "HTML Nedir?" Yazımıza Hoş Geldiniz</h1>
+  <p>İlk Web Sayfamız</p>
+</body>
 </html>
 ```
 ![Markdown Resim](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/html/html-nedir/figures/%C4%B0lk-Web-Sayfam%C4%B1z.png)

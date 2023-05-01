@@ -21,7 +21,6 @@ Ekran çıktısı:
     <li>Suyun içinde tek parça halinde çözünür</li>
     <li>Tereyağı rengi sarı yada beyaz olabilir</li>
 </ol>
-
 şeklinde olur.
 
 Liste başındaki sıralandırmayı rakamdan başka roma rakamı veya alfabetik şeklinde de yapabiliriz. Bunun için type özelliğini kullanmamız gerekir.
@@ -54,10 +53,9 @@ Ekran çıktısı:
     <li>Türk Kahvesi</li>
     <li>Süt</li>
 </ul>
-
 şeklinde olur. Liste elemanlarının başındaki içi dolu daireyi değiştirebilir veya silebiliriz.
 
-**Silmek İçin:
+Silmek İçin:
 ```html
 <ul style="list-style-type:none">   
     <li>Çay</li>
@@ -71,7 +69,6 @@ Ekran çıktısı:​
     <li>Türk Kahvesi</li>
     <li>Süt</li>
 </ul>
-
 şeklinde olur. Liste başındaki içi dolu daireyi değiştirmek için ise disc, square, circle değerlerini kullanabiliriz.
 ```html
 <ul style="list-style-type:square">   

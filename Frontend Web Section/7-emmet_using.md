@@ -64,7 +64,7 @@ Burada + ve * ifadesinin farkını da daha kolay anlayabiliriz.
 Fakat amacım farklı id’lere sahip üç adet li tagı oluşturmaksa **ul>li#id1+li#id2+li#id3** yapılır.
 
 Peki otomatik artış sağlayan değerleri tek tek yazmak amacımız zaman tasarrufu iken ne kadar mantıklı?
-Emmet bunun için de bir kısa yola sahip `:$` ifadesi. Yani yukarda görmüş olduğunuz **ul>li#id1+li#id2+li#id3** şeklinde yazdığımız kod bloğunu çok daha basit bir biçimde ul>li#idNo$*3 diyerek yazabiliriz.
+Emmet bunun için de bir kısa yola sahip `$` ifadesi. Yani yukarda görmüş olduğunuz **ul>li#id1+li#id2+li#id3** şeklinde yazdığımız kod bloğunu çok daha basit bir biçimde ul>li#idNo$*3 diyerek yazabiliriz.
 
 Böylece otomatik olarak idNo1, idNo2 ve idNo3 idlerine sahip üç adet li tagımız olur.
 ```html
@@ -95,7 +95,8 @@ Cevap:
 `<div class="className"></div>`
 Gördüğünüz gibi bir div oluşturdu. Emmet’e bir tag vermeksizin . veya # ifadelerini kullandığımızda bunun div tagı olduğunu biliyor.
 
-Ama biz bunu ul tagı içinde denersek tepkisi ne olur? Hadi deneyelim:
+Ama biz bunu ul tagı içinde denersek tepkisi ne olur? 
+Hadi deneyelim:
 ```html
 <ul>   
     <li class="className"></li>

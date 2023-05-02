@@ -1,5 +1,5 @@
-Emmet ile Daha Hızlı HTML Yapıları Oluşturmak
-Emmet web geliştiricilerinin sıklıkla zamandan tasarruf etmek ve daha hızlı kod yazmak için kullandığı bir eklentidir. Emmet’in temel mantığı, yazılımcıya kodlama yaparken zaman kazandırmasıdır. Örneğin hepimiz bir html dosyasının iskeletini biliriz:
+# Emmet ile Daha Hızlı HTML Yapıları Oluşturmak
+Emmet web geliştiricilerinin sıklıkla zamandan tasarruf etmek ve daha hızlı kod yazmak için kullandığı bir eklentidir. Emmet’in temel mantığı, yazılımcıya kodlama yaparken zaman kazandırmasıdır. 
 ```html
 <!DOCTYPE html> <html lang="en">
 <head>
@@ -11,16 +11,15 @@ Emmet web geliştiricilerinin sıklıkla zamandan tasarruf etmek ve daha hızlı
 </body>
 </html>
 ```
-Emmet sayesinde çok daha hızlı bir biçinde **! + Tab** kullanarak bu yapıyı oluşturabilirsiniz. Bunu tek tek yazmaktansa iki tuşa basarak yapmak çok güzel değil mi?
+Emmet sayesinde çok daha hızlı bir biçinde **! + Tab** kullanarak bu yapıyı oluşturulabilir.
 
-Anlayacağınız üzere emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
+Emmet bazı kısa yollarla basit bir biçimde Html ve Css kodu yazmamıza yardımcı olur. Aynı kodu tekrar tekrar yazmanızı engellerken üretkenliğinizi de arttırmış olur. Emmet neredeyse tüm text editörlerinde mevcuttur, bu yüzden onu yüklemenize gerek yoktur. Ama herhangi bir nedenden ide’nizde mevcut değilse [bu sayfadan](https://emmet.io/download/) yükleyebilirsiniz.
 
-Emmet’deki Kısa Yollara Gelecek Olursak...
-Emmette kullandığımız bazı kısa yollar var, şimdi bunları örnekleriyle tek tek inceleyelim.
+## Emmet Kısa Yollar
 
-**>** ifadesini kullanarak kardeş element oluşturuyoruz.
+**>** ifadesini kullanarak kardeş element oluşturabiliriz.
 
-Örneğin şekildeki, gibi **ul** tagı içerisinde **li** tagı oluşturmak istiyorsunuz. Bunun için yapmanız gereken tek şey **ul > li** yazarak Tab’a basmak.
+Örneğin şekildeki, gibi **ul** tagı içerisinde **li** tagı oluşturmak isteyelim. Bunun için yapmanız gereken tek şey **ul > li** yazarak Tab’a basmamız yeterlidir.
 ```html
 <ul>   
     <li></li> 
@@ -50,7 +49,7 @@ Bunun için * ifadesini kullanırız. **ul>li*3** yaparak ul tagı içerisinde �
     <li class="class2"></li>
 </ul>
 ```
-Bu şekilde bir kod oluşur. Aynı şekilde ul.class1>li.class2*3 denerek bir yerine üç adet class2 sınıfından li tagı oluşturulabilirdi.
+Bu şekilde bir kod oluşur. Aynı şekilde **ul.class1>li.class2*3** denerek bir yerine üç adet class2 sınıfından li tagı oluşturulabilirdi.
 
 Bir id özelliği eklemek için ise # ifadesini kullanırız. Yeni bir örnekle id özelliği eklemeyi görelim. **ul#id1>li#id2** diyerek aşağıda gördüğünüz kodu oluşturabiliriz.
 ```html

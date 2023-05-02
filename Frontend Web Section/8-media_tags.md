@@ -93,12 +93,12 @@ Bu olay resim yüklenmesi tamamlandığında çalışacak fonksiyonu belirler. H
 </html>
 ```
 ### picture Elementi ile Kullanım
-HTML5 ile gelen picture elementi web sayfamızda responsive imageler kullanmamız konusunda büyük kolaylıklar sağlıyor. Bir tane img ve birden fazla source içerebilir. picture tagi ekran boyutlarına göre birden çok source kulllanmamızı sağlar bu sayede ekran boyutu değiştikçe farklı image'leri kullanabilirsiniz.
+HTML5 ile gelen picture elementi web sayfamızda responsive imageler kullanmamız konusunda büyük kolaylıklar sağlıyor. Bir tane img ve birden fazla source içerebilir. picture tagi ekran boyutlarına göre birden çok source kullanmamızı sağlar bu sayede ekran boyutu değiştikçe farklı image'leri kullanabilirsiniz.
 
 Örnek: Burada ekran genişliğinin 800 pikselden küçük olduğu durumlarda başka diğer koşullarda ise başka bir görsel kullanılacak.
 ```html
 <picture>     
-<source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" media="(min-width: 800px)">
+<source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f43137823ef50db-300x62.png" media="(min-width: 800px)">
 <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
 </picture>
 ```
